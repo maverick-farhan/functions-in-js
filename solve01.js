@@ -1,10 +1,21 @@
 //Uncomment With Caution ;)
 
+//Calculate Remainder WITHOUT Modulus Operator
+//a-->numerator  b-->denominator
+//Remember Remainder is always an integer numbers not float(Real)numbers
+function remainderWithoutModulusOperator(a, b) {
+  let remainder = a - b * Math.floor(a / b);
+  return remainder;
+}
+console.log(remainderWithoutModulusOperator(7, 2));
+
 //Calculate Remainder With Modulus Operator
-function reminder(a, b) {
+/*
+function remainder(a, b) {
   return a % b;
 }
-console.log(reminder(2, 2));
+console.log(remainder(2, 2));
+*/
 
 //Swapping Without Fourth Variable
 /*
