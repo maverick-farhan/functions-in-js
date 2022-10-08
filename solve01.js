@@ -1,15 +1,19 @@
+//Uncomment Functions and Practice
 //Uncomment With Caution ;)
 
-//Calculate Remainder WITHOUT Modulus Operator
+//*******************************Calculate Remainder WITHOUT Modulus Operator**********************
 //a-->numerator  b-->denominator
-//Remember Remainder is always an integer numbers not float(Real)numbers
+//Remember** (Remainder is always an integer numbers not float(Real)numbers)
+
+/*
 function remainderWithoutModulusOperator(a, b) {
   let remainder = a - b * Math.floor(a / b);
   return remainder;
 }
 console.log(remainderWithoutModulusOperator(7, 2));
+*/
 
-//Calculate Remainder With Modulus Operator
+//******************************Calculate Remainder With Modulus Operator***********************************
 /*
 function remainder(a, b) {
   return a % b;
@@ -17,7 +21,8 @@ function remainder(a, b) {
 console.log(remainder(2, 2));
 */
 
-//Swapping Without Fourth Variable
+//
+//*********************************Swapping Without Fourth Variable****************************************
 /*
 function SwapWithoutFourth(a, b, c) {
   console.log(`Before -> a:${1}, b:${b}, c:${c}`);
@@ -30,7 +35,7 @@ function SwapWithoutFourth(a, b, c) {
 console.log(SwapWithoutFourth(1, 2, 3));
 */
 
-//Swapping Using Fourth Variable
+//*******************************************Swapping Using Fourth Variable************************************
 /*
 function SwapThird(a, b, c) {
   let temp = a; //temp=1
@@ -42,17 +47,19 @@ function SwapThird(a, b, c) {
 console.log(SwapThird(1, 2, 3));
 */
 
+//********************************************* Convert Centigrade to Fahrenhiet************************************
+//Fact	C =-40 F
+//	F = -40 C
+
 /*
- * Convert Centigrade to Fahrenhiet
-//Fact -40 C == -40 F
-  function Celcius(fahr) {
+ function Celcius(fahr) {
   let tempCelcius = ((fahr - 32) * 5) / 9;
   return tempCelcius;
 }
 console.log(Celcius(-40));
 */
 
-//Total Time in seconds
+//***************************************************Total Time in seconds********************************************
 /*
 function time(hr, min, sec) {
   let total = hr * 3600 + min * 60 + sec;
@@ -61,7 +68,7 @@ function time(hr, min, sec) {
 console.log(`${time(1, 1, 0)} secs`);
 */
 
-//Area of circle
+//**************************************************Area of circle*******************************************************
 /*
 function area(radius) {
   const PI = 3.14;
@@ -70,30 +77,25 @@ function area(radius) {
 console.log(area(2));
 */
 
-//Average Of Numbers
+//********************************************************Average Of Numbers**********************************************
 /*
 function avg(a, b, c, n) {
   return (a + b + c) / n;
 }
 console.log(avg(1, 1, 3, 2));
 */
-/*Input Two Numbers and Print their Sum
+
+//************************************************Input Two Numbers and Print their Sum************************************
+/*
 function sum(x, y) {
   return x + y;
 }
 console.log(sum(10, 10));
 */
-//Swapping Numbers
-/*var a = 12;
-var b = 11;
-var c = 15;
-var d = 14;
-var e = 15;
+
+//****************************************************Swapping Numbers*****************************************
+/*
 var f = 14;
-var g = 11;
-var h = 42;
-var i = 40;
-var j = 40;
 var k = 20;
 
 //Swap k and f(Using Third Variable)
@@ -113,3 +115,4 @@ f = k - f;
 k = k - f;
 console.log("Value of k after: " + k + "  Value of f after: " + f);
 */
+//****************************************************Swapping Numbers*****************************************
