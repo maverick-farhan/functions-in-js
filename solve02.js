@@ -28,6 +28,74 @@ console.log(range(100));
 */
 
 //Give the Rupee Notations e.g(Rs.1342 have 500x2, 200x1,100x1,20x2,2x1)
+/*
+function rupeeNotation(rs) {
+  let fHund, twoHund, oneHund, fifty, twenty, ten, five, two;
+  console.log(`  Rs.${rs} contains:`);
+  fHund = rs / 500;
+  rs = rs % 500;
+  twoHund = rs / 200;
+  rs = rs % 200;
 
-function rupeeNotation(rs) {}
+  oneHund = rs / 100;
+  rs = rs % 100;
+
+  fifty = rs / 50;
+  rs = rs % 50;
+
+  twenty = rs / 20;
+  rs = rs % 20;
+
+  ten = rs / 10;
+  rs = rs % 10;
+
+  five = rs / 5;
+  rs = rs % 5;
+
+  two = rs / 2;
+  rs = rs % 2;
+
+  return ` | 500 x ${Math.floor(fHund)} | 200 x ${Math.floor(
+    twoHund
+  )} | 100 x ${Math.floor(oneHund)} | 50 x ${Math.floor(
+    fifty
+  )} | 20x ${Math.floor(twenty)} | 10 x ${Math.floor(ten)} | 5 x ${Math.floor(
+    five
+  )} | 2 x ${Math.floor(two)} |`;
+}
 console.log(rupeeNotation(1342));
+*/
+
+//calculate the sum of three digits number e.g (125 is 8)
+/*
+function sumDigit(number) {
+  let fDigit, sDigit, tDigit;
+  console.log(`Sum of Three Digit Number ${number} is :`);
+  fDigit = number / 100;
+  number = number % 100;
+  sDigit = number / 10;
+  tDigit = number % 10;
+  return `${Math.floor(fDigit + sDigit + tDigit)}`;
+}
+console.log(sumDigit(125));
+*/
+
+//Merge Three Numbers to form three digit number
+/*
+function mergeDigits(a, b, c) {
+  let number;
+  number = a * 100 + b * 10 + c;
+  return number;
+}
+console.log(mergeDigits(1, 2, 30)); //Flaws in this program
+*/
+
+//Reverse of 3 digit numbers
+/*
+function reverse(number) {
+  let rev = number;
+  rev = rev % 10;
+  return rev;
+}
+console.log(reverse(123));
+*/
