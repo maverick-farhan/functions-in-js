@@ -99,3 +99,20 @@ function reverse(number) {
 }
 console.log(reverse(123));
 */
+
+//find real roots of the quadratic equation
+//a,b,c are the coefficients of Qudratic Equation
+function rootsQuad(a, b, c) {
+  var r1, r1;
+  let d;
+  d = b * 2 - 4 * a * c;
+  if (d < 0) {
+    return `Roots are Imaginary`;
+  } else {
+    r1 = -b + Math.sqrt(d);
+    r2 = -b - Math.sqrt(d);
+    return `r1 = ${r1} \nr2 = ${r2}`;
+  }
+}
+
+console.log(rootsQuad(1, 4, 1));
