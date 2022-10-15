@@ -116,3 +116,15 @@ k = k - f;
 console.log("Value of k after: " + k + "  Value of f after: " + f);
 */
 //****************************************************Swapping Numbers*****************************************
+
+//Table Of n
+/*
+function table(n) {
+  for (i = 1; i <= 10; i++) {
+    console.log(`${n} x ${i} = ${n * i}`);
+  }
+}
+table(10);
+*/
+
+//
